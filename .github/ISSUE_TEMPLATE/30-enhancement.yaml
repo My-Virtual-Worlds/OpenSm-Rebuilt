@@ -1,0 +1,25 @@
+name: Enhancement
+description: New Enhancement
+title: "[New Enhancement]: "
+labels: [enhancement]
+body:
+- type: markdown
+  attributes:
+    value: |
+      - Write a descriptive feature/enhancement title above.
+      - Search [open](https://github.com/My-Virtual-Worlds/OpenSm-Rebuilt/issues?q=is%3Aopen+label%3Aenhancement+is%3Aissue) feature/enhancement requests to ensure that the feature has not already been requested.
+
+- type: textarea
+  attributes:
+    label: Environment
+    description: About Platform Text
+    placeholder: ex. OpenSim-Rebuilt 1.0.0.0 (64bit) ...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Description
+    description: What does this enhancement do? Why is it needed? Include screenshots to illustrate how it should function if possible!
+  validations:
+    required: true
