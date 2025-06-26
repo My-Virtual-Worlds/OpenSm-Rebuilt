@@ -1,0 +1,10 @@
+name: Blank Issue
+description: Don’t see your issue here? Open a blank issue.
+labels: [unsure]
+body:
+- type: textarea
+  attributes:
+    label: Description
+    description: Please describe your issue.
+  validations:
+    required: true
